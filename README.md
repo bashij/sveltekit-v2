@@ -1,4 +1,4 @@
-# sveltekit-v1
+# sveltekit-v2
 
 ## About
 SvelteKit minimal + prettier, eslint + ローカルDocker環境
