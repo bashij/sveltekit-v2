@@ -13,10 +13,12 @@ SvelteKit minimal + prettier, eslint + ローカルDocker環境
 
 ```terminal
 $ git clone https://github.com/bashij/sveltekit-v2.git
+$ cd sveltekit-v2
 $ docker-compose build
 $ docker-compose run --rm app yarn install
 $ cp .env.example .env
 $ docker-compose run --rm app yarn prisma migrate dev
+$ docker-compose up -d
 ```
 
 ## 暫定サンプルレコード作成
