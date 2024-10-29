@@ -3,7 +3,7 @@ services:
   app:
     build: ./
     container_name: app
-    command: sh -c "yarn install && yarn run dev -- --host"
+    command: sh -c "yarn run dev -- --host"
     ports:
       - '5173:5173'
     volumes:
