@@ -7,7 +7,7 @@ SvelteKit minimal + prettier, eslint + ローカルDocker環境
 追加予定：
 
 - Prisma（10/29追加済み）
-- Lucia
+- Lucia　→ grabpassとする（10/30追加済み）
 
 ## Setup
 
